@@ -1,0 +1,22 @@
+{
+  "name": "loop-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwindcss -i ./css/input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pouriya-moshfegh/studio-tailwind.git"
+  },
+  "author": "Pouriya-Moshfegh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pouriya-moshfegh/studio-tailwind/issues"
+  },
+  "homepage": "https://github.com/pouriya-moshfegh/studio-tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "3.1"
+  }
+}
