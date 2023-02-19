@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#header {
+  background-image: url("../images/desktop/image-hero.jpg");
+  height:41rem;
+  background-size:cover;
+  background-poistion:center;   
+}

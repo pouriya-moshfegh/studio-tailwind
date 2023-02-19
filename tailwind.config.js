@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Bellefair', 'sans-serif'],
+        sans: ['Syne', 'sans-serif'],
       }
     },
   },
