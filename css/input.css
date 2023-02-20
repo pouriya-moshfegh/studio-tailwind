@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/*customize*/
+@layer components {
+  /* container */
+  .section-container {
+    @apply container mx-auto  px-4 p-8;
+  }
+  /* nav */
+  .nav-item {
+    @apply text-white font-bold p-2 hover:text-gray-200 hover:border-b-pink-200 hover:border-b-2;
+  }
+  /*typogrphy*/
+  .title {
+    @apply leading-snug tracking-wider uppercase;
+  }
+  .image {
+    @apply hover:opacity-80 transform hover:scale-105 cursor-pointer duration-300 mt-5;
+  }
+}
+/*normal css*/
 #header {
   background-image: url("../images/desktop/image-hero.jpg");
-  height:41rem;
-  background-size:cover;
-  background-poistion:center;   
+  height: 41rem;
+  background-size: cover;
+  background-poistion: center;
 }
+/* .image{
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.8526703499079189) 0%, rgba(0,212,255,0.07918968692449357) 100%); */
